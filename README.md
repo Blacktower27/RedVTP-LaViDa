@@ -78,7 +78,7 @@ bash eval/run.sh lavida-ckpts/lavida-llada-hd
 ```
 Modify the retaining ratio
 
-Change the ratio at line 304 in `LaViDa/llava/model/language_model/llada/generate.py`:
+Change the ratio at line 304 in `RedVTP-LaViDa/llava/model/language_model/llada/generate.py`:
 ```
 keep_ratio = 0.50
 ```
