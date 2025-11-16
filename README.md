@@ -76,7 +76,7 @@ The evaluation scrips are under `eval` folder. Please use the following script t
 ```
 bash eval/run.sh lavida-ckpts/lavida-llada-hd
 ```
-Modify the pruning ratio
+Modify the retaining ratio
 
 Change the ratio at line 304 in `LaViDa/llava/model/language_model/llada/generate.py`:
 ```
